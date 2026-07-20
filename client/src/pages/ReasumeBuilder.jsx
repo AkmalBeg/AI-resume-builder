@@ -13,15 +13,15 @@ import ClassicTemplate from "../assets/templates/ClassicTemplate";
 import ModernTemplate from "../assets/templates/ModernTemplate";
 import MinimalTemplate from "../assets/templates/MinimalTemplate";
 import MinimalImageTemplate from "../assets/templates/MinimalImageTemplate";
-import ColorPicker from '../components/colerpicker'
-import PersonalInfo from '../components/personalinfo'
-import SummaryForm from '../components/summary'
-import ExperienceForm from '../components/exprence'
-import EducationForm from '../components/educationform'
-import ProjectForm from '../components/projectform'
-import SkillsForm from '../components/skillform'
-import Preview from '../components/preview'
-import TemplateSelect from '../components/TemplateSelect'
+import ColorPicker from '../Components/colerpicker'
+import PersonalInfo from '../Components/personalinfo'
+import SummaryForm from '../Components/summary'
+import ExperienceForm from '../Components/exprence'
+import EducationForm from '../Components/educationform'
+import ProjectForm from '../Components/projectform'
+import SkillsForm from '../Components/skillform'
+import Preview from '../Components/preview'
+import TemplateSelect from '../Components/TemplateSelect'
 
 
 const ResumeBuilder = () => {
