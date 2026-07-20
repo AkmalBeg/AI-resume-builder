@@ -1,7 +1,7 @@
 
 
 import { Mail, Phone, MapPin, Globe } from "lucide-react";
-import LinkedinIcon from "../../components/icons/linkedin";
+import LinkedinIcon from "../../Components/icons/linkedin";
 
 const ClassicTemplate = ({ data = {}, accentColor = "#3B82F6" }) => {
     const personal_info = data.personal_info || {};

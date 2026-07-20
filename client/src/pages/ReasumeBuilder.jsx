@@ -21,7 +21,7 @@ import EducationForm from '../Components/educationform'
 import ProjectForm from '../Components/projectform'
 import SkillsForm from '../Components/skillform'
 import Preview from '../Components/preview'
-import TemplateSelect from '../Components/TemplateSelect'
+import TemplateSelect from '../Components/templateSelect'
 
 
 const ResumeBuilder = () => {

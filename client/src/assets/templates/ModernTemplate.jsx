@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin, Globe } from "lucide-react";
-import LinkedinIcon from "../../components/icons/linkedin";
+import LinkedinIcon from "../../Components/icons/linkedin";
 const ModernTemplate = ({ data, accentColor }) => {
 	const formatDate = (dateStr) => {
 		if (!dateStr) return "";
