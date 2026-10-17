@@ -59,7 +59,6 @@ const Footer = () => {
                             <div>
                                 <h3 className="font-medium text-sm mb-4 text-black">Resources</h3>
                                 <ul className="space-y-3 text-sm text-slate-600">
-                                    <li><a href="#" className="hover:text-green-600">PrebuiltUI</a></li>
                                     <li><a href="#" className="hover:text-green-600">Templates</a></li>
                                     <li><a href="#" className="hover:text-green-600">Components</a></li>
                                     <li><a href="#" className="hover:text-green-600">Blogs</a></li>

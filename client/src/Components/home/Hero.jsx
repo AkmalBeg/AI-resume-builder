@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import previewVideo from "../../assets/watermarked_preview.mp4";
+
 const Hero = () => {
 const [showDemo, setShowDemo] = React.useState(false);
  const{user}=useSelector((state)=>state.auth)
-  //const{user}=useSelector((state)=>state.user)
-
   const [menuOpen, setMenuOpen] = React.useState(false);
 
   const companiesLogo = [
@@ -21,9 +21,7 @@ const [showDemo, setShowDemo] = React.useState(false);
       <div className="min-h-screen pb-20">
         {/* Navbar */}
         <nav className="z-50 flex items-center justify-between w-full py-4 px-6 md:px-16 lg:px-24 xl:px-40 text-sm">
-          <a href="https://prebuiltui.com">
-
-          </a>
+          
 
           <div className="hidden md:flex items-center gap-8 transition duration-500 text-slate-800">
             <a href="#" className="hover:text-green-600 transition">Home</a>
@@ -70,14 +68,13 @@ const [showDemo, setShowDemo] = React.useState(false);
       <button onClick={() => setShowDemo(false)} className="absolute top-3 right-3 z-10 size-8 flex items-center justify-center bg-white/10 hover:bg-white/20 rounded-full text-white transition">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
       </button>
-      <iframe
-        className="w-full h-full"
-        src="/src/assets/watermarked_preview.mp4"
-        title="Product demo"
-        frameBorder="0"
-        allow="autoplay; encrypted-media; picture-in-picture"
-        allowFullScreen
-      />
+      <video
+  className="w-full h-full"
+  src={previewVideo}
+  controls
+  autoPlay
+  playsInline
+/>
     </div>
   </div>
 )}
